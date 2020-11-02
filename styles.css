@@ -81,7 +81,7 @@ label #btn{
     font-size: 25px;
     color: rgb(153, 144, 144);
     padding: 7px 16px;
-    transition: all .1s ; 
+/*     transition: all .1s ;  */
 }
 
 label #cancel{
