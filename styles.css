@@ -1,0 +1,207 @@
+#full{
+    background-color: rgba(209, 201, 205, 0.986);
+    height: 1400px;
+}
+
+/* Navbar */
+#navbarDropdown{
+    color: rgba(255, 255, 255, 0.76);
+} 
+
+/* Sidebar */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(7, 8, 10);
+    transition: all .5s ease;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color:white;
+    text-align: center;
+    line-height: 70px;
+    background-color: #063146;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 47px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(81, 33, 194, 0.1);
+    border-bottom:1px solid black;
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+
+}
+
+#check{
+    display: none;
+}
+
+label #btn{
+    position: absolute;
+    cursor: pointer;
+    background-color: #525758;
+    border-radius: 7px;
+}
+label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background-color: #525758;
+    border-radius: 7px;
+}
+label #btn{
+    left: 18px;
+    top: 8px;
+    font-size: 25px;
+    color: rgb(153, 144, 144);
+    padding: 7px 16px;
+    transition: all .1s ; 
+}
+
+label #cancel{
+    /* z-index: 1111; */
+    left: -100px;
+    top: 8px;
+    font-size: 25px;
+    color: rgb(153, 144, 144);
+    padding: 7px 13px;
+    /* transition: all .5s ; */
+} 
+ #check:checked ~ .sidebar{
+     left: 0;
+ }
+
+ #check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+    
+    left: 28px;
+}
+
+#check:checked ~ #p-3{
+    margin-left: 250px;
+}
+
+/* Carousel-1 */
+
+#p-one{
+    border-radius: 33px;
+    background-color: rgb(245, 245, 245);
+    height: 370px;
+}
+
+
+#demo1{
+    text-align: center;
+}
+#demo2{
+    text-align: center;
+    
+}
+#demo3{
+    text-align: center;
+}
+
+/* buttons */
+.myButton {
+	background-color:#202421;
+	border-radius:18px; 
+    border:1px solid #ededed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:26px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d4dbd2;
+}
+.myButton:hover {
+	background-color:rgba(86, 87, 71, 0.685);
+} 
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+#container {
+    text-align: center; 
+    padding: 15px;
+
+}
+
+.myButton{
+    text-align: center;
+
+    width: 250px;
+    height: 110px;
+}
+
+
+#container a{
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* h3 */
+
+.r1{
+    padding: 20px;
+    padding-left: 105px;
+}
+
+.r2{
+    padding: 30px;
+    padding-left: 110px;
+}
+
+.r3{
+    padding: 30px;
+    padding-left: 109px;
+}
+
+/* Carousel-2 */
+.p-two{
+    border-radius: 33px;
+    background-color: rgb(245, 245, 245);
+    height: 760px;
+    
+}
+
