@@ -24,6 +24,7 @@
     height: 100%;
     background-color: rgb(7, 8, 10);
     transition: all .5s ease;
+    border-radius: 12px;
 }
 
 .sidebar header{
@@ -33,6 +34,7 @@
     line-height: 70px;
     background-color: #063146;
     user-select: none;
+    border-radius: 12px;
 }
 
 .sidebar ul a{
